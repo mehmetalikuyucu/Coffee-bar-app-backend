@@ -1,0 +1,14 @@
+{
+  "extends": "fastify-tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@connectors": ["connectors", "./connectors/*"],
+      "@operations": ["operations", "./operations/*"],
+      "@services": ["services", "./services/*"]
+    }
+  },
+
+}
